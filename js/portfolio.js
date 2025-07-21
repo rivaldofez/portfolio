@@ -38,7 +38,7 @@ const portfolioItems = [
         overview: "TribunX is a super app developed by Tribun Network, part of Kompas Gramedia, a leading media company in Indonesia. The app aims to integrate various services into one platform, combining the network’s expertise in news delivery with additional features for diverse user needs. It offers hyperlocal news, live streaming, Video-On-Demand (VOD), and interactive social features like TribunMe, where users can connect with influential figures.",
         role: "iOS Developer",
         techStack: ["Swift", "SwiftUI", "Combine", "Core Data", "Moya", "TCA", "Firebase", "Jixie", "AppFlyers"],
-        tools: ["GitHub", "Figma"],
+        tools: ["GitLab", "Figma"],
         contributions: [
             "Create custom view and base component such as web view manager, core data manager, pop up, alert etc",
             "Working on main feature such as SSO, Detail Article, Detail Video, Live Video, Bookmarks",
@@ -106,6 +106,71 @@ const portfolioItems = [
             "img/portfolio/temanquran/temanquran14.webp",
             "img/portfolio/temanquran/temanquran15.webp",
             "img/portfolio/temanquran/temanquran16.webp",
+        ]
+    },
+    {
+        id: "hifzmate",
+        title: "HifzMate",
+        image: "img/portfolio/hifzmate/hifzmate-logo.png",
+        shortDescription: "Introducing HifzMate - Your Ultimate Quran Memorization Companion",
+        overview: "HifzMate is a revolutionary application designed to assist Quran memorization enthusiasts in their journey of memorizing the Holy Quran. With its comprehensive set of features, HifzMate aims to make the memorization process more engaging, structured, and rewarding",
+        role: "iOS Developer",
+        techStack: ["Swift", "SwiftUI", "Firebase", "CoreAnimation", "Moya"],
+        tools: ["GitHub", "Figma"],
+        contributions: [
+            "Implement User Interface using SwiftUI",
+            "Implement Authentication with Firebase for Google Sign in and Apple Sign in",
+            "Implement cloud database using Firebase Firestore",
+            "Release final product to App Store"
+        ],
+        links: {
+            appStore: "https://apps.apple.com/in/app/hifzmate/id6501949968",
+            github: null
+        },
+        screenshots: [
+            "img/portfolio/hifzmate/hifzmate1.png",
+            "img/portfolio/hifzmate/hifzmate2.png",
+            "img/portfolio/hifzmate/hifzmate3.png",
+            "img/portfolio/hifzmate/hifzmate4.png",
+            "img/portfolio/hifzmate/hifzmate5.png",
+            "img/portfolio/hifzmate/hifzmate6.png",
+        ]
+    },
+    {
+        id: "pokepedia",
+        title: "Poképedia",
+        image: "img/portfolio/pokepedia/pokepedia-logo.png",
+        shortDescription: "Poképedia is a pokedex application that provide all pokemon informations",
+        overview: "Poképedia  is an app that provide all data pokemon like Pokedex and detail pokemon. This apps is consume Pokeapi to provide all detail data about pokemon. Poképedia is my individual project during my time learning core tech stack of iOS Developer",
+        role: "iOS Developer",
+        techStack: ["Swift", "UIKit (Programmatically)", "Alamofire", "RxSwift", "Realm", "DGChart", "Lottie", "SDWebImage", "VIPER", "Generic Patter", "Modularization", "Github Action"],
+        tools: ["GitHub", "Figma"],
+        contributions: [
+            "Create app design and the assets",
+            "Implement UI using UIKit programmatically",
+            "Implement VIPER",
+            "Implement Modularization with generic protocol approach",
+            "Implement local cache, and offline first"
+        ],
+        links: {
+            appStore: null,
+            github: "https://github.com/rivaldofez/Pokepedia"
+        },
+        screenshots: [
+            "img/portfolio/pokepedia/pokepedia1.png",
+            "img/portfolio/pokepedia/pokepedia2.png",
+            "img/portfolio/pokepedia/pokepedia3.png",
+            "img/portfolio/pokepedia/pokepedia4.png",
+            "img/portfolio/pokepedia/pokepedia5.png",
+            "img/portfolio/pokepedia/pokepedia6.png",
+            "img/portfolio/pokepedia/pokepedia7.png",
+            "img/portfolio/pokepedia/pokepedia8.png",
+            "img/portfolio/pokepedia/pokepedia9.png",
+            "img/portfolio/pokepedia/pokepedia10.png",
+            "img/portfolio/pokepedia/pokepedia11.png",
+            "img/portfolio/pokepedia/pokepedia12.png",
+            "img/portfolio/pokepedia/pokepedia13.png",
+            "img/portfolio/pokepedia/pokepedia14.png",
         ]
     },
 ];
