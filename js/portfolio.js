@@ -221,15 +221,15 @@ const portfolioItems = [
         techStack: ["Swift", "UIKIt", "Combine", "MetalKit", "AVFoundation", "CoreImage", "CoreAnimation"],
         tools: ["GitHub", "Figma"],
         contributions: [
-  "Built ChromaFilter, an iOS app that applies customizable monochrome RGB-based filters to images and live camera input, exploring low-level image processing.",
-  "Designed and implemented the UI programmatically using UIKit with layout anchors, avoiding Storyboards for full control over view hierarchy and layout constraints.",
-  "Applied VIPER architecture and clean architecture principles to achieve strict separation of concerns and modular design.",
-  "Developed a simple but powerful RGB color filtering engine to generate dynamic monochrome effects in real time.",
-  "Worked with AVFoundation to access the device camera and apply live filters to video input streams.",
-  "Implemented reusable components and base classes to streamline new feature development and reduce code duplication.",
-  "Practiced good software engineering practices including version control with GitHub, clean commit history, and modular code organization.",
-  "Used this project to strengthen understanding of UIKit layouting, camera integration, and architecture patterns in a production-style setup."
-],
+            "Built ChromaFilter, an iOS app that applies customizable monochrome RGB-based filters to images and live camera input, exploring low-level image processing.",
+            "Designed and implemented the UI programmatically using UIKit with layout anchors, avoiding Storyboards for full control over view hierarchy and layout constraints.",
+            "Applied VIPER architecture and clean architecture principles to achieve strict separation of concerns and modular design.",
+            "Developed a simple but powerful RGB color filtering engine to generate dynamic monochrome effects in real time.",
+            "Worked with AVFoundation to access the device camera and apply live filters to video input streams.",
+            "Implemented reusable components and base classes to streamline new feature development and reduce code duplication.",
+            "Practiced good software engineering practices including version control with GitHub, clean commit history, and modular code organization.",
+            "Used this project to strengthen understanding of UIKit layouting, camera integration, and architecture patterns in a production-style setup."
+        ],
         links: {
             appStore: null,
             github: "https://github.com/rivaldofez/ChromaFilter"
@@ -257,14 +257,14 @@ const portfolioItems = [
         techStack: ["SwiftUI", "Swift", "Swift Playground", "Realm", "CoreAnimation"],
         tools: ["GitHub", "Figma"],
         contributions: [
-  "Developed Chromatic, a color perception game built to challenge visual acuity through time-based color differentiation tasks.",
-  "Designed and implemented the UI entirely using SwiftUI, creating a smooth, responsive, and animated interface.",
-  "Built a dynamic NxN color grid generator, where one square has a subtly different color — the player must identify it within one minute.",
-  "Applied Core Animation and visual feedback techniques to highlight success, failure, and transitions between levels.",
-  "Used Realm to persist user progress, best scores, and time statistics, enabling offline gameplay and local history tracking.",
-  "Conducted visual design in Figma, focusing on contrast, accessibility, and user-friendly touch targets.",
-  "Packaged and tested the app inside Swift Playgrounds, making it accessible for learners and test users on iPad.",
-  "Used GitHub for version control, maintaining clean commits and modular game logic components for future expansion."
+            "Developed Chromatic, a color perception game built to challenge visual acuity through time-based color differentiation tasks.",
+            "Designed and implemented the UI entirely using SwiftUI, creating a smooth, responsive, and animated interface.",
+            "Built a dynamic NxN color grid generator, where one square has a subtly different color — the player must identify it within one minute.",
+            "Applied Core Animation and visual feedback techniques to highlight success, failure, and transitions between levels.",
+            "Used Realm to persist user progress, best scores, and time statistics, enabling offline gameplay and local history tracking.",
+            "Conducted visual design in Figma, focusing on contrast, accessibility, and user-friendly touch targets.",
+            "Packaged and tested the app inside Swift Playgrounds, making it accessible for learners and test users on iPad.",
+            "Used GitHub for version control, maintaining clean commits and modular game logic components for future expansion."
         ],
         links: {
             appStore: null,
@@ -303,7 +303,14 @@ const portfolioItems = [
         techStack: ["SwiftUI", "Swift", "Realm", "RxSwift", "XLSX Writer", "Lottie"],
         tools: ["GitHub", "Figma"],
         contributions: [
-            []
+            "Built E-Weapon, an inventory management app to track weapon rentals and services for shooting sport providers.",
+            "Implemented a clean, modern user interface using SwiftUI, based on a custom design created in Figma.",
+            "Applied MVVM architecture for maintainable, scalable code structure with clear separation of concerns.",
+            "Integrated Realm as a local database to manage weapon entries, statuses, rental histories, and service logs.",
+            "Added filtering and status tagging to distinguish weapons that are rented, available, or under maintenance.",
+            "Developed export features to allow users to generate reports in Microsoft Excel (.xlsx) and CSV formats using XLSXWriter.",
+            "Leveraged RxSwift to handle reactive data streams and UI updates for inventory changes in real time.",
+            "Integrated Lottie for lightweight animations to enhance user interaction during exports, status updates, and onboarding."
         ],
         links: {
             appStore: null,
@@ -341,14 +348,14 @@ const portfolioItems = [
         techStack: ["SwiftUI", "Swift", "Swift Playground", "Lottie", "CoreAnimation"],
         tools: ["GitHub", "Figma"],
         contributions: [
-  "Conducted research and observation to identify user challenges in learning Lampung script and formulated the app concept to gamify the experience.",
-  "Created the UI/UX design and all necessary visual assets using Figma, tailored to native iOS interfaces.",
-  "Implemented the full user interface using SwiftUI, focusing on fluid interactions and accessibility.",
-  "Built features such as a drawing canvas to practice writing Lampung script and quizzes to evaluate progress.",
-  "Applied MVVM architecture to ensure modularity and easier testability of business logic.",
-  "Utilized AppStorage to persist user preferences, quiz scores, and other lightweight data.",
-  "Added animations using Lottie and CoreAnimation to increase engagement during quizzes and learning progress."
-],
+            "Conducted research and observation to identify user challenges in learning Lampung script and formulated the app concept to gamify the experience.",
+            "Created the UI/UX design and all necessary visual assets using Figma, tailored to native iOS interfaces.",
+            "Implemented the full user interface using SwiftUI, focusing on fluid interactions and accessibility.",
+            "Built features such as a drawing canvas to practice writing Lampung script and quizzes to evaluate progress.",
+            "Applied MVVM architecture to ensure modularity and easier testability of business logic.",
+            "Utilized AppStorage to persist user preferences, quiz scores, and other lightweight data.",
+            "Added animations using Lottie and CoreAnimation to increase engagement during quizzes and learning progress."
+        ],
         links: {
             appStore: null,
             github: "https://github.com/rivaldofez/Wawai"
@@ -377,7 +384,15 @@ const portfolioItems = [
         role: "Mobile Developer",
         techStack: ["Swift", "Kotlin", "Swift", "Lottie"],
         tools: ["GitHub", "Figma"],
-        contributions: [],
+        contributions: [
+            "Created the app design and visual assets using Figma, inspired by the need for fitness solutions during the COVID-19 pandemic.",
+            "Built the user interface with native components, ensuring an engaging and easy-to-use experience for home workout routines.",
+            "Implemented Clean Architecture to separate concerns and improve scalability and maintainability.",
+            "Applied MVVM architecture for better code organization and clear separation of presentation logic.",
+            "Developed both iOS (Swift) and Android (Kotlin) versions to reach a broader audience with platform-native experiences.",
+            "Integrated Lottie animations to visualize exercises and enhance user motivation.",
+            "Enabled exercise progress tracking so users can monitor improvements and stay consistent during lockdown periods."
+        ],
         links: {
             appStore: null,
             github: "https://github.com/rivaldofez/CoFit19"
