@@ -1,25 +1,75 @@
 const portfolioItems = [
     {
-        id: "byond-bsi",
-        title: "Byond by BSI",
-        image: "img/portfolio/byond/byond-logo.png",
-        shortDescription: "BYOND by BSI is a comprehensive SuperApp for digital banking.",
-        overview: "BYOND by BSI is a comprehensive \"SuperApp\" launched by Bank Syariah Indonesia (BSI) as an upgrade to its existing BSI Mobile app. It integrates financial, social, and spiritual services into a single platform, aiming to enhance user convenience and meet the increasing demands of digital banking. Features include investment options, savings accounts, payments, and QRIS transactions. BYOND by BSI reflects BSI's commitment to digital transformation, providing a user-friendly, secure, and multifunctional banking experience",
+        id: "growin-mandiri-sekuritas",
+        title: "Growin' by Mandiri Sekuritas",
+        image: "img/portfolio/growin/growin-logo.jpg",
+        shortDescription: "Growin’ is an investment app by Mandiri Sekuritas designed to make investing simple, seamless, and accessible for all levels of investors.",
+        overview: "Introducing Growin’, your trusted investment app by Mandiri Sekuritas, one of Indonesia’s leading investment institutions. Designed for investors of all levels to maximize wealth and achieve their financial goals, Growin’ makes investing simple and not intimidating. The app offers a beginner-friendly experience while still providing advanced features for active traders. Users can seamlessly explore and transact across various investment products, including stocks, mutual funds, and bonds, all within a smooth and secure digital ecosystem.",
         role: "iOS Developer",
-        techStack: ["Swift", "RxSwift", "UIKit (Auto Layout)", "Alamofire", "Zoloz", "Dynatrace", "AppFlyers"],
-        tools: ["GitLab", "Figma", "Jira"],
-        contributions: [
-            "Developed and integrated the revamped MVP feature for online account opening and debit card activation, using Swift, UIKit, and a VIPER architecture to ensure scalability and future enhancements.",
-            "Built the “Byond Lyfe” lifestyle feature, a dynamic, scroll-driven module with custom animations and personalized menus, enhancing user engagement and navigation.",
-            "Implemented KAI (Kereta Api Indonesia) booking and payment system, integrating third-party APIs and designing a smooth, reliable ticketing flow within the app.",
-            "Integrated Firebase Analytics and Appsflyer to track user behavior, install attribution, and in-app events, supporting data-driven product and marketing decisions.",
-            "Applied MVVM architecture and modular design patterns to ensure codebase clarity, maintainability, and ease of testing across growing features.",
-            "Created reusable UI components and layouts with UIKit, Auto Layout, and storyboard/code-based interfaces, ensuring consistency and reducing development time.",
-            "Played a key role in the code review process, helping maintain high code quality and preventing bugs during merges to pre-release and production branches.",
-            "Identified and resolved UI performance issues using Instruments (Time Profiler, Allocations), leading to smoother user experience on both mid- and low-tier devices.",
-            "Supported cross-functional collaboration with design, backend, QA, and product teams, ensuring features were aligned with business goals and user expectations.",
-            "Contributed to the release cycle and sprint planning using JIRA ensuring timely delivery within tight deadlines."
+        techStack: [
+            "Swift",
+            "RxSwift",
+            "UIKit",
+            "Alamofire",
+            "Moya",
+            "WebSocket",
+            "Clean Architecture",
+            "MVVM",
+            "CoreData"
         ],
+        tools: [
+            "Bitbucket",
+            "Figma",
+            "Jira",
+            "Confluence"
+        ],
+        contributions: [
+            "Implemented optimization of Mixpanel analytics in production by fixing tracking inconsistencies and eliminating redundant events, reducing analytics cost by 40% while improving data accuracy for product decision-making.",
+            "Refactored legacy modules and implemented Clean Architecture (MVVM + modular approach) across customer-area features, improving scalability, maintainability, and testability of the codebase.",
+            "Rebuilt core features including KYC onboarding, dynamic theming system, and customer dashboard, ensuring smoother user flows and better UX consistency.",
+            "Optimized app performance by removing unnecessary Rx-based reactive bindings for simple UI cases, reducing overhead and improving responsiveness.",
+            "Implemented multithreading and background processing for real-time stock price updates using WebSocket, ensuring smooth UI performance without blocking the main thread."
+        ],
+        links: {
+            appStore: "https://apps.apple.com/id/app/growin-invest-trade/id6736831346",
+            github: null
+        },
+        screenshots: [
+            "img/portfolio/growin/growin_1.webp",
+            "img/portfolio/growin/growin_2.webp",
+            "img/portfolio/growin/growin_3.webp",
+            "img/portfolio/growin/growin_4.webp",
+            "img/portfolio/growin/growin_5.webp",
+            "img/portfolio/growin/growin_6.webp",
+            "img/portfolio/growin/growin_7.webp",
+            "img/portfolio/growin/growin_8.webp"
+        ]
+    },
+    {
+        id: "byond-bsi-superapp",
+    title: "BYOND by BSI",
+    image: "img/portfolio/byond/byond-logo.webp",
+    shortDescription: "BYOND by BSI is a comprehensive digital banking SuperApp integrating financial, social, and spiritual services into one seamless platform.",
+    overview: "BYOND by BSI is a comprehensive \"SuperApp\" launched by Bank Syariah Indonesia (BSI) as an upgrade to its existing BSI Mobile app. It integrates financial, social, and spiritual services into a single platform, aiming to enhance user convenience and meet the increasing demands of digital banking. Key features include investment services, savings accounts, payments, QRIS transactions, and lifestyle integrations. BYOND reflects BSI's commitment to digital transformation by delivering a secure, user-friendly, and multifunctional banking experience.",
+    role: "iOS Developer",
+    techStack: [
+        "Swift",
+        "RxSwift",
+        "UIKit (Auto Layout)",
+        "Alamofire"
+    ],
+    tools: [
+        "GitLab",
+        "Figma",
+        "Jira"
+    ],
+    contributions: [
+        "Created, integrated, and implemented the revamped MVP feature for online account opening and debit card activation, ensuring a smooth and secure digital onboarding experience.",
+        "Developed the core Lifestyle feature “Byond Lyfe” with a dynamic menu system and scroll-driven animations to enhance engagement and interactive user experience.",
+        "Implemented the Indonesian train ticket booking and payment feature, integrating booking flows and secure transaction handling within the SuperApp ecosystem.",
+        "Integrated and optimized tracking and analytics using Appsflyer and Firebase to monitor user behavior, event tracking, and support data-driven product decisions.",
+        "Acted as a code reviewer for merges into pre-release and production branches, maintaining code quality, consistency, and stability across releases."
+    ],
         links: {
             appStore: "https://apps.apple.com/id/app/byond-by-bsi/id6444697752",
             github: null
@@ -36,39 +86,148 @@ const portfolioItems = [
         ]
     },
     {
-        id: "tribunx",
-        title: "TribunX",
-        image: "img/portfolio/tribunx/tribunx-logo.png",
-        shortDescription: "TribunX is a hyperlocal news superapp by Tribun Network.",
-        overview: "TribunX is a super app developed by Tribun Network, part of Kompas Gramedia, a leading media company in Indonesia. The app aims to integrate various services into one platform, combining the network’s expertise in news delivery with additional features for diverse user needs. It offers hyperlocal news, live streaming, Video-On-Demand (VOD), and interactive social features like TribunMe, where users can connect with influential figures.",
-        role: "iOS Developer",
-        techStack: ["Swift", "SwiftUI", "Combine", "Core Data", "Moya", "TCA", "Firebase", "Jixie", "AppFlyers"],
-        tools: ["GitLab", "Figma"],
-        contributions: [
-            [
-                "Researched appropriate tech stack and built the app from scratch, focusing on performance, scalability, and long-term maintainability. Maintained and developed the Tribun news app using SwiftUI, delivering fast and reliable news content to users across Indonesia.",
-                "Created custom reusable components such as a WebView manager, Core Data manager, custom pop-ups, and alert handlers, standardizing UI/UX across the app.",
-                "Developed key features like SSO (Single Sign-On), Detail Article, Detail Video, Live Video, and Bookmarks, all integrated into a TCA architecture.",
-                "Implemented video playback and short video support, integrating with the company’s internal Kotlin Multiplatform (KMP) video SDK for seamless media delivery.",
-                "Built infinite scrolling and lazy loading for article and video feeds, optimizing performance and reducing memory usage.",
-                "Integrated push notifications using Firebase Cloud Messaging (FCM) for real-time news alerts, live event updates, and reader re-engagement.",
-                "Implemented bookmarking with Core Data, enabling users to save and access articles offline.",
-                "Integrated Firebase Analytics to track in-app events and user behavior, supporting editorial and product strategy decisions.",
-                "Enhanced deep linking, routing, and navigation flow to handle shared links from social media and external platforms directly into in-app content."
-            ]
+        id: "slyyk",
+        title: "SLYYK Ride-Sharing App",
+        image: "img/portfolio/slyyk/slyyk-logo.webp",
+        shortDescription: "SLYYK is a ride-sharing platform connecting passengers and drivers with real-time tracking, seamless booking, and flexible trip management.",
+        overview: "SLYYK is a user-friendly ride-sharing application designed to seamlessly connect passengers with available drivers. The app allows users to book rides, track their driver’s location in real-time, manage profiles, and access ride history. SLYYK Driver is a dedicated app for professional drivers, providing flexibility and control when accepting and managing bookings. Drivers can handle on-demand trips, scheduled bookings, or a combination of both, with a structured and intuitive interface that keeps them focused and organized throughout the ride lifecycle.",
+        role: "Mobile Developer (iOS Lead & Android Contributor)",
+        techStack: [
+            "iOS: Swift",
+            "Combine",
+            "SwiftUI",
+            "Alamofire",
+            "Firebase",
+            "Stripe",
+            "MVVM\nAndroid: Kotlin",
+            "Flow",
+            "MVVM",
+            "Retrofit",
+            "Firebase",
+            "Stripe"
         ],
+        tools: [
+            "GitHub",
+            "Figma",
+            "Linear",
+            "Desktime"
+        ],
+        contributions: [
+            "Led iOS development of the end-to-end ride flow for both Passenger and Driver apps, integrating Google Maps SDK for pickup and destination search, route rendering, and dynamic map interactions.",
+            "Implemented real-time positioning and ride state management using Firebase Realtime Database, ensuring low-latency driver-passenger synchronization, accurate trip state transitions, and seamless live tracking.",
+            "Built notification workflows using Firebase Cloud Messaging to handle ride requests, driver acceptance, trip start/end events, and emergency (SOS) alerts with proper foreground and background handling.",
+            "Revamped major UI/UX flows including onboarding, ride booking, and in-trip screens, improving layout structure, interaction clarity, and real-time UI updates for smoother user experience.",
+            "Optimized iOS performance during active trips by enhancing location accuracy, reducing unnecessary UI re-renders, properly handling background location updates, and ensuring battery-efficient tracking."
+        ],
+        links: {
+            appStore: "https://apps.apple.com/id/app/slyyk/id1585798685?l=id",
+            github: null
+        },
+        screenshots: [
+            "img/portfolio/slyyk/passenger_1.webp",
+            "img/portfolio/slyyk/passenger_2.webp",
+            "img/portfolio/slyyk/passenger_4.webp",
+            "img/portfolio/slyyk/passenger_5.webp",
+            "img/portfolio/slyyk/passenger_3.webp",
+            "img/portfolio/slyyk/passenger_6.webp",
+            "img/portfolio/slyyk/passenger_7.webp",
+            "img/portfolio/slyyk/passenger_8.webp",
+            "img/portfolio/slyyk/driver_1.webp",
+            "img/portfolio/slyyk/driver_2.webp",
+            "img/portfolio/slyyk/driver_4.webp",
+            "img/portfolio/slyyk/driver_5.webp",
+            "img/portfolio/slyyk/driver_3.webp",
+            "img/portfolio/slyyk/driver_6.webp",
+            "img/portfolio/slyyk/driver_7.webp"
+        ]
+    },
+    {
+        id: "petanetra",
+        title: "PetaNetra",
+        image: "img/portfolio/petanetra/petanetra-logo.webp",
+        shortDescription: "PetaNetra is an AR-based navigation app designed to help blind users navigate indoor public spaces independently using VoiceOver and real-time guidance.",
+        overview: "PetaNetra is an application that leverages Augmented Reality (AR) technology to help blind users navigate independently in indoor public spaces with greater comfort and confidence. The app fully supports VoiceOver to effectively deliver audio-based guidance and contextual information. PetaNetra detects the user’s location and guides them to selected destinations using AR-based navigation. The system utilizes four types of markers: (1) Place markers to indicate destinations or current position such as gates, toilets, and counters; (2) Warning markers to alert users about potential hazards like floor height differences; (3) Obstacle markers to inform users about objects to avoid such as poles, holes, or railings; and (4) Action markers to instruct users to perform specific actions like pushing a door or raising a hand for temperature checks.",
+        role: "iOS Developer",
+        techStack: [
+            "Swift",
+            "Combine",
+            "UIKit",
+            "SwiftUI",
+            "Alamofire",
+            "ARKit",
+            "CoreML",
+            "CoreMotion",
+            "SceneKit",
+            "MVVM",
+            "SnapKit"
+        ],
+        tools: [
+            "GitHub",
+            "Figma",
+            "Notion"
+        ],
+        contributions: [
+            "Built an AR-based Map Editor using ARKit and SceneKit, enabling users to create and adjust navigation maps directly in 3D space.",
+            "Implemented and enhanced AR Navigation with real-time path updates and haptic feedback to provide more intuitive and accessible guidance for blind users.",
+            "Developed object recognition using Vision framework and improved its stability by applying throttling techniques and adjusting FPS to optimize performance.",
+            "Resolved 2D map synchronization and connection issues, ensuring seamless updates between 2D maps and AR (3D) navigation mode.",
+            "Conducted research and experimentation on AR-related technical challenges including tracking accuracy, rendering performance, and memory optimization to improve overall app stability and reliability."
+        ],
+        links: {
+            appStore: "https://apps.apple.com/id/app/petanetra-blind-navigation/id6451104240",
+            github: null
+        },
+        screenshots: [
+            "img/portfolio/petanetra/petanetra_1.webp",
+            "img/portfolio/petanetra/petanetra_2.webp",
+            "img/portfolio/petanetra/petanetra_3.webp",
+            "img/portfolio/petanetra/petanetra_4.webp"
+        ]
+    },
+    {
+        id: "tribunx-superapp",
+    title: "TribunX",
+    image: "img/portfolio/tribunx/tribunx-logo.webp",
+    shortDescription: "TribunX is a media super app by Tribun Network that combines hyperlocal news, live streaming, VOD, and interactive social features into one platform.",
+    overview: "TribunX is a super app developed by Tribun Network, part of Kompas Gramedia, one of Indonesia’s leading media companies. The application integrates various digital services into a single platform, combining Tribun Network’s expertise in hyperlocal news delivery with live streaming, Video-On-Demand (VOD), and interactive social features such as TribunMe. TribunX aims to provide a seamless content consumption experience while enabling users to engage with communities and influential public figures directly within the app.",
+    role: "iOS Developer",
+    techStack: [
+        "SwiftUI",
+        "Swift",
+        "Combine",
+        "Core Data",
+        "Moya",
+        "TCA",
+        "Firebase",
+        "Jixie",
+        "Appsflyer"
+    ],
+    tools: [
+        "GitHub",
+        "Figma",
+        "Trello"
+    ],
+    contributions: [
+        "Developed reusable custom views and base components such as WebView Manager, Core Data Manager, popup and alert systems to standardize architecture and accelerate feature development.",
+        "Implemented core features including SSO authentication, Detail Article, Detail Video, Live Video streaming, and Bookmarks with efficient state management using TCA.",
+        "Integrated push notification workflows and analytics tracking using Firebase Cloud Messaging and Appsflyer to improve user engagement and campaign measurement.",
+        "Optimized local data persistence using Core Data to support offline reading and bookmarking functionality.",
+        "Integrated video monetization and advertising flows using Jixie SDK, ensuring smooth playback and proper ad lifecycle handling.",
+        "Applied modular architecture and Combine-based reactive bindings to improve maintainability, scalability, and predictable state management.",
+        "Collaborated closely with product, backend, and design teams using GitHub flow and Trello-based sprint management to ensure timely delivery and high code quality."
+    ],
         links: {
             appStore: "https://apps.apple.com/id/app/tribunx/id6448592070?platform=iphone",
             github: null
         },
         screenshots: [
-            "img/portfolio/tribunx/tribunx1.png",
-            "img/portfolio/tribunx/tribunx2.png",
-            "img/portfolio/tribunx/tribunx3.png",
-            "img/portfolio/tribunx/tribunx4.png",
-            "img/portfolio/tribunx/tribunx5.png",
-            "img/portfolio/tribunx/tribunx6.png",
-            "img/portfolio/tribunx/tribunx7.png",
+            "img/portfolio/tribunx/tribunx_1.webp",
+            "img/portfolio/tribunx/tribunx_2.webp",
+            "img/portfolio/tribunx/tribunx_3.webp",
+            "img/portfolio/tribunx/tribunx_4.webp",
+            "img/portfolio/tribunx/tribunx_5.webp",
+            "img/portfolio/tribunx/tribunx_6.webp",
+            "img/portfolio/tribunx/tribunx_7.webp",
         ]
     },
     {
