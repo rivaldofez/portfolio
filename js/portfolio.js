@@ -3,7 +3,7 @@ const portfolioItems = [
         id: "growin-mandiri-sekuritas",
         title: "Growin' by Mandiri Sekuritas",
         image: "img/portfolio/growin/growin-logo.jpg",
-        shortDescription: "Growin’ is an investment app by Mandiri Sekuritas designed to make investing simple, seamless, and accessible for all levels of investors.",
+        shortDescription: "Flagship digital investment platform integrated with Livin’ by Mandiri, with Gold and US Stock trading experiences. Mandiri Sekuritas reported more than 1.4 million individual investor accounts as of June 2026.",
         overview: "Introducing Growin’, your trusted investment app by Mandiri Sekuritas, one of Indonesia’s leading investment institutions. Designed for investors of all levels to maximize wealth and achieve their financial goals, Growin’ makes investing simple and not intimidating. The app offers a beginner-friendly experience while still providing advanced features for active traders. Users can seamlessly explore and transact across various investment products, including stocks, mutual funds, and bonds, all within a smooth and secure digital ecosystem.",
         role: "iOS Developer",
         techStack: [
@@ -24,9 +24,9 @@ const portfolioItems = [
             "Confluence"
         ],
         contributions: [
-            "Implemented optimization of Mixpanel analytics in production by fixing tracking inconsistencies and eliminating redundant events, reducing analytics cost by 40% while improving data accuracy for product decision-making.",
-            "Refactored legacy modules and implemented Clean Architecture (MVVM + modular approach) across customer-area features, improving scalability, maintainability, and testability of the codebase.",
-            "Rebuilt core features including KYC onboarding, dynamic theming system, and customer dashboard, ensuring smoother user flows and better UX consistency.",
+            "Owned delivery of strategic investment initiatives as New Initiative Squad PIC, including Gold and US Stock trading experiences. Reduced production Mixpanel analytics costs by 40% by removing redundant events and correcting tracking inconsistencies.",
+            "Modernized a legacy dashboard of more than 30,000 lines into a modular, component-based architecture, reducing dead code and boilerplate while improving separation of concerns and long-term maintainability.",
+            "Designed scalable navigation with deep-link integration, cross-module communication, and A/B testing support; contributed to Liquid Glass adoption and seasonal dynamic theming.",
             "Optimized app performance by removing unnecessary Rx-based reactive bindings for simple UI cases, reducing overhead and improving responsiveness.",
             "Implemented multithreading and background processing for real-time stock price updates using WebSocket, ensuring smooth UI performance without blocking the main thread."
         ],
@@ -49,7 +49,7 @@ const portfolioItems = [
         id: "byond-bsi-superapp",
     title: "BYOND by BSI",
     image: "img/portfolio/byond/byond-logo.webp",
-    shortDescription: "BYOND by BSI is a comprehensive digital banking SuperApp integrating financial, social, and spiritual services into one seamless platform.",
+    shortDescription: "BSI’s flagship digital banking SuperApp, serving approximately 6 million users and bringing banking, lifestyle, payments and financial services into one platform.",
     overview: "BYOND by BSI is a comprehensive \"SuperApp\" launched by Bank Syariah Indonesia (BSI) as an upgrade to its existing BSI Mobile app. It integrates financial, social, and spiritual services into a single platform, aiming to enhance user convenience and meet the increasing demands of digital banking. Key features include investment services, savings accounts, payments, QRIS transactions, and lifestyle integrations. BYOND reflects BSI's commitment to digital transformation by delivering a secure, user-friendly, and multifunctional banking experience.",
     role: "iOS Developer",
     techStack: [
@@ -64,9 +64,9 @@ const portfolioItems = [
         "Jira"
     ],
     contributions: [
-        "Created, integrated, and implemented the revamped MVP feature for online account opening and debit card activation, ensuring a smooth and secure digital onboarding experience.",
-        "Developed the core Lifestyle feature “Byond Lyfe” with a dynamic menu system and scroll-driven animations to enhance engagement and interactive user experience.",
-        "Implemented the Indonesian train ticket booking and payment feature, integrating booking flows and secure transaction handling within the SuperApp ecosystem.",
+        "Led the Lifestyle Squad of three iOS developers, setting technical direction, architecture, coding standards, and code-review practices.",
+        "Led Lyfe, BYOND’s lifestyle ecosystem, integrating ticket booking, bill payments, credit card services, promotions, cashback, and cardless withdrawals.",
+        "Delivered essential banking experiences including online account opening, debit card activation, and payment flows; helped improve crash-free rate from 90% to 98%.",
         "Integrated and optimized tracking and analytics using Appsflyer and Firebase to monitor user behavior, event tracking, and support data-driven product decisions.",
         "Acted as a code reviewer for merges into pre-release and production branches, maintaining code quality, consistency, and stability across releases."
     ],
@@ -89,7 +89,7 @@ const portfolioItems = [
         id: "slyyk",
         title: "SLYYK Ride-Sharing App",
         image: "img/portfolio/slyyk/slyyk-logo.webp",
-        shortDescription: "SLYYK is a ride-sharing platform connecting passengers and drivers with real-time tracking, seamless booking, and flexible trip management.",
+        shortDescription: "Two-sided passenger and driver ride-booking platform with on-demand and scheduled trips, real-time GPS tracking, multiple vehicle categories and fleet management.",
         overview: "SLYYK is a user-friendly ride-sharing application designed to seamlessly connect passengers with available drivers. The app allows users to book rides, track their driver’s location in real-time, manage profiles, and access ride history. SLYYK Driver is a dedicated app for professional drivers, providing flexibility and control when accepting and managing bookings. Drivers can handle on-demand trips, scheduled bookings, or a combination of both, with a structured and intuitive interface that keeps them focused and organized throughout the ride lifecycle.",
         role: "Mobile Developer (iOS Lead & Android Contributor)",
         techStack: [
@@ -145,7 +145,7 @@ const portfolioItems = [
         id: "petanetra",
         title: "PetaNetra",
         image: "img/portfolio/petanetra/petanetra-logo.webp",
-        shortDescription: "PetaNetra is an AR-based navigation app designed to help blind users navigate indoor public spaces independently using VoiceOver and real-time guidance.",
+        shortDescription: "An accessibility-focused AR indoor navigation platform with VoiceOver, Voice Control, spatial guidance, haptics and obstacle recognition for blind users.",
         overview: "PetaNetra is an application that leverages Augmented Reality (AR) technology to help blind users navigate independently in indoor public spaces with greater comfort and confidence. The app fully supports VoiceOver to effectively deliver audio-based guidance and contextual information. PetaNetra detects the user’s location and guides them to selected destinations using AR-based navigation. The system utilizes four types of markers: (1) Place markers to indicate destinations or current position such as gates, toilets, and counters; (2) Warning markers to alert users about potential hazards like floor height differences; (3) Obstacle markers to inform users about objects to avoid such as poles, holes, or railings; and (4) Action markers to instruct users to perform specific actions like pushing a door or raising a hand for temperature checks.",
         role: "iOS Developer",
         techStack: [
@@ -188,7 +188,7 @@ const portfolioItems = [
         id: "tribunx-superapp",
     title: "TribunX",
     image: "img/portfolio/tribunx/tribunx-logo.webp",
-    shortDescription: "TribunX is a media super app by Tribun Network that combines hyperlocal news, live streaming, VOD, and interactive social features into one platform.",
+    shortDescription: "A digital media super app combining news, video, live reports, ticket booking and local experiences, with more than one million downloads.",
     overview: "TribunX is a super app developed by Tribun Network, part of Kompas Gramedia, one of Indonesia’s leading media companies. The application integrates various digital services into a single platform, combining Tribun Network’s expertise in hyperlocal news delivery with live streaming, Video-On-Demand (VOD), and interactive social features such as TribunMe. TribunX aims to provide a seamless content consumption experience while enabling users to engage with communities and influential public figures directly within the app.",
     role: "iOS Developer",
     techStack: [
@@ -577,33 +577,40 @@ const portfolioItems = [
 
 function renderPortfolio() {
     const container = document.getElementById('portfolio-container');
+    if (!container) return;
 
-    portfolioItems.forEach(item => {
+    const featured = portfolioItems.slice(0, 5);
+    featured.forEach((item, index) => {
         const col = document.createElement('div');
-        col.className = 'col-lg-4 mb-5';
+        col.className = 'col-lg-4 col-md-6 mb-4';
+        const initials = item.title
+            .replace(/[^a-zA-Z0-9 ]/g, ' ')
+            .split(/\s+/)
+            .filter(Boolean)
+            .slice(0, 2)
+            .map(word => word[0])
+            .join('')
+            .toUpperCase();
 
         col.innerHTML = `
-      <div class="h-100 d-flex flex-column border rounded overflow-hidden">
-        <div class="position-relative mb-3" style="aspect-ratio: 4/3; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
-          <img 
-            src="${item.image}" 
-            alt="${item.title}" 
-            style="max-width: 100%; max-height: 100%; object-fit: contain;" 
-            class="d-block mx-auto"
-          >
-        </div>
-        <div class="px-3 pb-3 d-flex flex-column flex-grow-1">
-          <h5 class="font-weight-medium mb-2">${item.title}</h5>
-          <p class="flex-grow-1">${item.shortDescription}</p>
-          <a class="btn btn-sm btn-outline-primary mt-auto py-2" href="detail.html?id=${item.id}">See Details</a>
-        </div>
-      </div>
-    `;
-
+          <article class="project-card">
+            <div class="project-art project-thumbnail">
+              <img src="${item.image || ''}" alt="${item.title} project thumbnail" loading="lazy"
+                   onerror="this.style.display='none';this.parentElement.classList.add('thumbnail-fallback')">
+              <span class="project-number">PROJECT / ${String(index + 1).padStart(2, '0')}</span>
+              <span class="project-monogram">${initials}</span>
+              <span class="project-kind">${item.role || 'MOBILE DEVELOPMENT'}</span>
+            </div>
+            <div class="project-info">
+              <h3>${item.title}</h3>
+              <p>${item.shortDescription}</p>
+              <a class="button button-quiet" href="detail.html?id=${encodeURIComponent(item.id)}">Explore project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        `;
         container.appendChild(col);
     });
 }
-
 
 // Run when DOM is ready
 document.addEventListener("DOMContentLoaded", renderPortfolio);

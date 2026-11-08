@@ -1,505 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Rivaldo Fernandes - iOS Engineer</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Portfolio Rivaldo Fernandes" name="keywords">
-    <meta content="Portfolio Rivaldo Fernandes" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rivaldo Fernandes — iOS Engineer</title>
+  <meta name="description" content="Rivaldo Fernandes is an iOS Engineer focused on building performant, scalable and thoughtful mobile experiences.">
+  <meta name="theme-color" content="#080a0b">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"><link href="css/portfolio-dark.css" rel="stylesheet">
 </head>
+<body>
+  <nav class="site-nav"><div class="nav-inner">
+    <a class="brand" href="#home"><span class="brand-mark">rf<span>.</span></span><span class="brand-name">Rivaldo Fernandes</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Stack</a><a href="#education">Education</a><a href="#projects">Projects</a><a class="nav-contact" href="https://www.linkedin.com/in/rivaldofez/" target="_blank" rel="noreferrer">LinkedIn <i class="fa-brands fa-linkedin-in"></i></a></div>
+  </div></nav>
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-grid"></div><div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR GREAT ENGINEERING CHALLENGES <span class="eyebrow-line"></span></div>
+        <p class="hero-kicker">Hello, world. I’m</p>
+        <h1>Rivaldo<br><span>Fernandes</span><i class="hero-cursor">_</i></h1>
+        <div class="hero-role"><span class="code-bracket">{</span> iOS Engineer <span class="role-divider">/</span> Mobile Developer <span class="code-bracket">}</span></div>
+        <p class="hero-description">I build mobile experiences that feel effortless — backed by thoughtful architecture, reliable engineering, and a relentless focus on performance.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-down"></i></a><a class="button button-quiet" href="https://drive.google.com/file/d/1sKfHohlvdCxpAKkm0xBuXSMPEREL-j50/view?usp=drive_link" target="_blank" rel="noreferrer"><i class="fa-solid fa-file-lines"></i> View Resume</a></div>
+        <div class="hero-socials"><a href="https://github.com/rivaldofez" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a href="https://www.linkedin.com/in/rivaldofez/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a><a href="https://wa.me/6282279025566" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a><a href="https://medium.com/@rivaldofez" target="_blank" rel="noreferrer"><i class="fa-brands fa-medium"></i> Medium</a></div>
+      </div>
+      <div class="hero-visual"><div class="terminal-window"><div class="terminal-top"><div class="window-dots"><b></b><b></b><b></b></div><span>rivaldo.swift — zsh</span><i class="fa-solid fa-ellipsis"></i></div><div class="terminal-body"><div class="terminal-muted">// A little about how I work</div><p><span class="syntax-purple">let</span> engineer = <span class="syntax-blue">Developer</span>(</p><p class="indent"><span class="syntax-green">name</span>: <span class="syntax-orange">"Rivaldo"</span>,</p><p class="indent"><span class="syntax-green">focus</span>: [</p><p class="indent2"><span class="syntax-orange">"Performance"</span>,</p><p class="indent2"><span class="syntax-orange">"Architecture"</span>,</p><p class="indent2"><span class="syntax-orange">"User experience"</span></p><p class="indent">],</p><p class="indent"><span class="syntax-green">platform</span>: <span class="syntax-orange">.iOS</span></p><p>)</p><div class="terminal-output"><span class="terminal-prompt">➜</span> Ready to build something meaningful<span class="blink">_</span></div></div><div class="terminal-bottom"><span><i class="fa-brands fa-apple"></i> Swift</span><span><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</span></div></div><div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div><div class="hero-index">01 <span> / 04</span></div></div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">My</span>Resume</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#qualification" class="nav-item nav-link">Quality</a>
-                <a href="#skill" class="nav-item nav-link">Skill</a>
-                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-            </div>
-            <a href="https://www.linkedin.com/in/rivaldofez/" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+    <section class="section-wrap about-section" id="about"><div class="section-heading"><div><span class="section-index">01 — INTRODUCTION</span><h2>Engineering with<br><em>intention.</em></h2></div><p class="heading-note">A little context about me<br>and what drives my work.</p></div>
+      <div class="about-layout"><div class="about-lead"><span class="big-quote">“</span><p>I’m an iOS Engineer focused on building and scaling mobile products across fintech, digital banking, media, mobility, and accessibility.</p></div><div class="about-detail"><p>My work sits at the intersection of product quality and engineering craft. I enjoy untangling complex codebases, shaping maintainable architectures, and making apps faster and more dependable without losing sight of the people using them.</p><p>From financial platforms to accessibility-focused navigation, I care about building technology that solves real problems.</p><div class="about-facts"><div><span>BASED IN</span><strong>Jakarta, Indonesia</strong></div><div><span>EDUCATION</span><strong>B.Sc. Informatics</strong></div><div><span>CORE PLATFORM</span><strong>Apple ecosystem</strong></div><div><span>ALSO INTO</span><strong>Mentoring · Running</strong></div></div></div></div>
+    </section>
 
+    <section class="section-wrap experience-section" id="experience"><div class="section-heading"><div><span class="section-index">02 — THE JOURNEY</span><h2>Where I’ve<br><em>made impact.</em></h2></div><p class="heading-note">A selection of teams, products<br>and problems I’ve worked on.</p></div>
+      <div class="timeline">
+        <article class="timeline-item current"><div class="timeline-date">JAN 2026 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>iOS Engineer</h3><h4>Mandiri Sekuritas <span>· Growin’</span></h4></div><span class="work-type">FULL-TIME</span></div><p>PIC for the New Initiative Squad, driving Gold and US Stock trading initiatives end to end, contributing to approximately 5% company revenue growth. Modernized a 30,000+ line legacy dashboard into modular components, designed deep-link and cross-module navigation with A/B testing support, and reduced Mixpanel costs by <strong>40%</strong>.</p><div class="tag-row"><span>Swift</span><span>UIKit</span><span>MVVM</span><span>Clean Architecture</span><span>RxSwift</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">OCT 2025 — NOV 2026</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>Mobile App Engineer</h3><h4>SLYYK <span>· Australia / Remote</span></h4></div><span class="work-type">FREELANCE</span></div><p>Delivered passenger and driver ride-booking workflows, live GPS tracking, trip-state synchronization, FCM notifications and SOS alerts; streamlined release preparation for iOS and Android.</p><div class="tag-row"><span>Swift</span><span>SwiftUI</span><span>Kotlin</span><span>Firebase</span><span>Google Maps</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">MAY 2025 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>iOS Engineer</h3><h4>PetaNetra <span>· Accessibility</span></h4></div><span class="work-type">VOLUNTEER</span></div><p>Leading the Map Editor initiative and building AR indoor navigation for blind users, including 3D map authoring, Vision/Core ML obstacle recognition, spatial audio and haptic guidance, with VoiceOver and Voice Control support.</p><div class="tag-row"><span>ARKit</span><span>SceneKit</span><span>Vision</span><span>CoreML</span><span>Accessibility</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">FEB 2024 — JAN 2026</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>iOS Developer</h3><h4>Bank Syariah Indonesia <span>· BYOND SuperApp</span></h4></div><span class="work-type">FULL-TIME</span></div><p>Led a three-developer iOS Lifestyle Squad and the Lyfe ecosystem, spanning ticket booking, bill payments, card services, promotions, cashback and cardless withdrawals. Shipped core banking flows, contributing to more than 20% of company revenue, and helped raise crash-free rate from 90% to 98%.</p><div class="tag-row"><span>Swift</span><span>UIKit</span><span>VIPER</span><span>RxSwift</span><span>Appsflyer</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">AUG 2024 — AUG 2025</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>iOS Developer</h3><h4>Tribun Network <span>· KG Media</span></h4></div><span class="work-type">FREELANCE</span></div><p>Built reusable SwiftUI/TCA components and foundational WebView, Core Data, authentication and API services; delivered SSO, article/video detail, live video, bookmarks, push notifications and deep linking.</p><div class="tag-row"><span>SwiftUI</span><span>TCA</span><span>Core Data</span><span>Networking</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">JUL 2021 — JAN 2024</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>Technology Mentor</h3><h4>Orbit Ventura Indonesia <span>· Orbit Future Academy</span></h4></div><span class="work-type">FULL-TIME</span></div><p>Designed applied learning programs in mobile development, AI and computer vision; mentored learners building Swift-based iOS and AR applications with Core ML, Create ML, ARKit, UIKit and SwiftUI.</p><div class="tag-row"><span>Swift</span><span>Core ML</span><span>Create ML</span><span>ARKit</span><span>Mentoring</span></div></div></article>
+      </div>
+    </section>
 
-    <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
+    <section class="section-wrap skills-section" id="skills"><div class="section-heading"><div><span class="section-index">03 — TOOLKIT</span><h2>My tools of<br><em>the trade.</em></h2></div><p class="heading-note">The technologies I use to turn<br>ideas into reliable products.</p></div><div class="skills-grid"><div class="skill-panel"><span class="panel-label">01 / APPLE DEVELOPMENT</span><div class="skill-list"><div><i class="fa-brands fa-swift"></i><span>Swift</span><b>PRIMARY</b></div><div><i class="fa-solid fa-mobile-screen-button"></i><span>UIKit & SwiftUI</span></div><div><i class="fa-solid fa-cubes"></i><span>MVVM · VIPER · MVI</span></div><div><i class="fa-solid fa-layer-group"></i><span>Clean Architecture</span></div><div><i class="fa-solid fa-arrows-spin"></i><span>Combine · RxSwift</span></div></div></div><div class="skill-panel"><span class="panel-label">02 / ENGINEERING PRACTICE</span><div class="skill-list"><div><i class="fa-solid fa-gauge-high"></i><span>Performance Optimization</span></div><div><i class="fa-solid fa-puzzle-piece"></i><span>Modularization & DI</span></div><div><i class="fa-solid fa-vial"></i><span>Unit Testing</span></div><div><i class="fa-solid fa-route"></i><span>Navigation & Deep Linking</span></div><div><i class="fa-solid fa-chart-line"></i><span>Analytics & Observability</span></div></div></div><div class="skill-panel skill-panel-wide"><span class="panel-label">03 / PLATFORMS & TECHNOLOGIES</span><div class="tag-cloud"><span>ARKit</span><span>Vision</span><span>Core ML</span><span>SceneKit</span><span>SwiftData</span><span>Core Data</span><span>Firebase</span><span>RxSwift</span><span>Combine</span><span>Moya</span><span>Alamofire</span><span>Fastlane</span><span>Jenkins</span><span>GitHub Actions</span><span>Mixpanel</span><span>AppsFlyer</span></div></div></div></section>
 
+    <section class="section-wrap education-section" id="education"><div class="section-heading"><div><span class="section-index">04 — EDUCATION</span><h2>Learning that<br><em>keeps moving.</em></h2></div><p class="heading-note">A foundation in computer science<br>and hands-on Apple development.</p></div><div class="education-grid"><article class="education-card"><span class="education-date">AUG 2017 — FEB 2021</span><h3>Bachelor of Computer Science</h3><h4>Informatics · Institut Teknologi Sumatera</h4><p>Graduated as Most Outstanding Graduate of 2021. Served four semesters as a Laboratory Assistant for Algorithms and Data Structures, Mobile Application Development, and other computing courses.</p></article><article class="education-card"><span class="education-date">MAR 2022 — DEC 2022</span><h3>iOS Developer Apprenticeship</h3><h4>Apple Developer Academy · Batam</h4><p>Built four applications across education, culinary, and finance, gaining practical experience with Swift, UIKit, SwiftUI, and development across iOS, watchOS, and iPadOS.</p></article></div></section>
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
-                </div>
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">
-                        Rivaldo Fernandes</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">iOS Engineer, Full Stack Mobile Developer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="https://s.id/cv-rivaldo" class="btn btn-outline-light mr-5">Download CV</a>
-                        <a href="https://s.id/portfolio-doc-rivaldo" class="btn btn-outline-light mr-5">Download
-                            Portfolio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
+    <section class="section-wrap projects-section" id="projects"><div class="section-heading"><div><span class="section-index">05 — SELECTED WORK</span><h2>Things I’ve<br><em>helped build.</em></h2></div><p class="heading-note">A few products and experiments<br>that reflect my journey.</p></div><div class="project-intro"><span class="code-bracket">const</span> selectedProjects = <span class="syntax-orange">"made with care"</span>;</div><div class="row project-grid" id="portfolio-container"></div></section>
 
-
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">iOS Engineer</h3>
-                    <p>I’m an iOS Engineer with 3+ years of experience building, scaling, and maintaining high-impact
-                        mobile applications for the financial, media, and lifestyle sectors. I specialize in creating
-                        clean, reusable, and testable Swift code, with a strong foundation in algorithms, data
-                        structures, and modern architectures like VIPER and MVVM.</p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2">
-                            <h6>Name: <span class="text-secondary">Rivaldo Fernandes</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Degree: <span class="text-secondary">Bachelor</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Experience: <span class="text-secondary">3+ Years</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Phone: <span class="text-secondary">+62 822 7902 5566</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Email: <span class="text-secondary">rivaldofez@gmail.com</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Address: <span class="text-secondary">Jakarta</span></h6>
-                        </div>
-                    </div>
-                    <a href="https://www.linkedin.com/in/rivaldofez/" class="btn btn-outline-primary mr-4">Hire Me</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
-            </div>
-            <div class="row align-items">
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Bachelor In Computer Science / Informatics</h5>
-                            <p class="mb-2"><strong>Institut Teknologi Sumatera</strong> | <small>2017 - 2021</small>
-                            </p>
-                            <p>Recognized as one of the Most Outstanding Graduates in 2021 for academic excellence and
-                                leadership. Served as a Laboratory Assistant for 4 semesters, mentoring peers in key
-                                subjects such as Algorithms & Data Structures, and Mobile Development, which deepened
-                                both technical expertise and communication skills. Won 1st place in the ITCC 2020 Mobile
-                                Application Development Competition held in Bali, showcasing the ability to design
-                                innovative mobile solutions under pressure. Selected among the Top 15 projects in
-                                Bangkit 2021, a national tech talent program supported by Google, and secured a place in
-                                its Google-backed startup incubation program—further proving readiness to build
-                                impactful, user-focused mobile applications that scale.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">iOS Developer Apprenticeship</h5>
-                            <p class="mb-2"><strong>Apple Developer Academy@Infinite Learning</strong> |
-                                <small>2022</small>
-                            </p>
-                            <p>Completed a rigorous, full-time program designed by Apple to cultivate world-class iOS
-                                developers with a strong focus on product thinking, design, and engineering excellence.
-                                Over the course of the program, I designed and developed four iOS applications across
-                                domains such as education, culinary, and finance, demonstrating deep understanding of
-                                the Apple ecosystem. I built robust, user-friendly apps using both UIKit and SwiftUI,
-                                and extended functionality across iOS, iPadOS, and watchOS, showcasing adaptability and
-                                platform fluency. This experience sharpened my expertise in app architecture, interface
-                                design, state management, and Apple Human Interface Guidelines, while also instilling a
-                                strong foundation in collaborative product development, agile methodology, and
-                                continuous iteration. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-    <h3 class="mb-4">My Experience</h3>
-    <div class="border-left border-primary pt-2 pl-4 ml-2">
-
-        <!-- Mandiri Sekuritas -->
-        <div class="position-relative mb-4">
-            <i class="far fa-dot-circle text-primary position-absolute"
-                style="top: 2px; left: -32px;"></i>
-            <h5 class="font-weight-bold mb-1">iOS Engineer</h5>
-            <p class="mb-2"><strong>Mandiri Sekuritas</strong> | <small>January 2026 - Present</small></p>
-            <p>
-                As an iOS Engineer at Mandiri Sekuritas, I focus on scaling and modernizing the Growin’
-                investment platform. I optimized Mixpanel analytics implementation in production,
-                fixing tracking inconsistencies and eliminating redundant events, reducing analytics
-                costs by 40% while improving data accuracy for product decision-making.
-                I refactored legacy modules and implemented Clean Architecture (MVVM + modular approach)
-                to improve scalability, maintainability, and testability.
-                I rebuilt core features including KYC onboarding, dynamic theming system,
-                and customer dashboard for better UX consistency.
-                Additionally, I optimized performance by removing unnecessary Rx bindings
-                and implemented multithreading with background processing for real-time stock price updates,
-                ensuring smooth and responsive UI.
-            </p>
-        </div>
-
-        <!-- SLYYK -->
-        <div class="position-relative mb-4">
-            <i class="far fa-dot-circle text-primary position-absolute"
-                style="top: 2px; left: -32px;"></i>
-            <h5 class="font-weight-bold mb-1">Mobile App Engineer (Freelance)</h5>
-            <p class="mb-2"><strong>SLYYK</strong> | <small>October 2025 - Present</small></p>
-            <p>
-                Working remotely with an Australia-based ride-sharing startup,
-                I develop the end-to-end ride flow for both Passenger and Driver apps.
-                I integrated Google Maps for pickup-destination search and route rendering,
-                and implemented real-time positioning and ride state management using Firebase
-                Realtime Database to ensure low-latency driver-passenger synchronization.
-                I built push notification workflows for ride requests, driver acceptance,
-                trip start/end events, and SOS alerts with proper foreground/background handling
-                across iOS and Android.
-                I also revamped onboarding, booking, and in-trip UI flows,
-                and optimized performance by improving location accuracy,
-                reducing unnecessary re-renders, and ensuring battery-efficient background tracking.
-            </p>
-        </div>
-
-        <!-- PetaNetra -->
-        <div class="position-relative mb-4">
-            <i class="far fa-dot-circle text-primary position-absolute"
-                style="top: 2px; left: -32px;"></i>
-            <h5 class="font-weight-bold mb-1">iOS Engineer (Volunteer)</h5>
-            <p class="mb-2"><strong>PetaNetra</strong> | <small>May 2025 - Present</small></p>
-            <p>
-                As a volunteer iOS Engineer, I contribute to an AR-based navigation solution
-                designed to help visually impaired users navigate indoor public spaces.
-                I built an AR Map Editor using ARKit and SceneKit to enable 3D map creation.
-                I implemented and enhanced AR Navigation with real-time path updates
-                and haptic feedback for intuitive guidance.
-                I developed object recognition using Vision framework,
-                applied throttling and FPS adjustments for better stability,
-                resolved 2D-AR synchronization issues,
-                and researched tracking accuracy, rendering performance,
-                and memory optimization to improve overall app stability.
-            </p>
-        </div>
-
-        <!-- Bank Syariah Indonesia -->
-        <div class="position-relative mb-4">
-            <i class="far fa-dot-circle text-primary position-absolute"
-                style="top: 2px; left: -32px;"></i>
-            <h5 class="font-weight-bold mb-1">iOS Developer</h5>
-            <p class="mb-2"><strong>PT Bank Syariah Indonesia, Tbk.</strong> | <small>February 2024 - January 2026</small></p>
-            <p>
-                At Bank Syariah Indonesia, I worked on the BYOND by BSI SuperApp,
-                BSI Authenticator, and a Merchant SuperApp initiative.
-                I contributed to the revamp of MVP features for online account opening,
-                debit card activation, and integrated payment flows for a national launch.
-                I developed the core lifestyle module “Byond Lyfe” including
-                Kereta Api Indonesia ticket booking and payment,
-                referral and cashback system (KodeIn),
-                promo flows, and cardless ATM withdrawal,
-                powered by dynamic menus and scroll-driven animations.
-                I implemented analytics tracking using Appsflyer and Firebase,
-                handled deep link integration,
-                and played an active role as a code reviewer
-                for pre-release and production branches.
-            </p>
-        </div>
-
-        <!-- Tribun Network -->
-        <div class="position-relative mb-4">
-            <i class="far fa-dot-circle text-primary position-absolute"
-                style="top: 2px; left: -32px;"></i>
-            <h5 class="font-weight-bold mb-1">iOS Developer (Freelance)</h5>
-            <p class="mb-2"><strong>Tribun Network, KG Media</strong> | <small>2024 - 2025</small></p>
-            <p>
-                Contributed to the development of TribunX SuperApp,
-                building custom UI components and base infrastructure
-                such as WebView manager, Core Data manager, authentication manager,
-                and base API handler using SwiftUI and TCA architecture.
-                Worked on SSO, article and video detail pages, live streaming,
-                push notifications, deep linking, and social interaction features
-                such as likes and comments.
-                Collaborated closely with CMS and backend teams
-                to ensure seamless journalist content integration.
-            </p>
-        </div>
-
-    </div>
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Qualification End -->
-
-    <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Swift</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">UIKit</h6>
-                            <h6 class="font-weight-bold">95</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">SwiftUI</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">RxSwift - Combine</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Core Data - Realm</h6>
-                            <h6 class="font-weight-bold">90</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">VIPER - MVVM - MVC</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Clean Architecture</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">CoreML - CreateML</h6>
-                            <h6 class="font-weight-bold">75%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">CloudKit</h6>
-                            <h6 class="font-weight-bold">75%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Modularization</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Deeplinking - Routing</h6>
-                            <h6 class="font-weight-bold">80%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">AppFlyers - MixPanel</h6>
-                            <h6 class="font-weight-bold">80%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Skill End -->
-
-    <!-- Portfolio Start -->
-    <div class="container-fluid pt-5" id="portfolio">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Latest Portfolio</h1>
-            </div>
-            <div class="row" id="portfolio-container">
-                <!-- JS will render portfolio cards here -->
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://github.com/rivaldofez"><i
-                        class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/rivaldofez/"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://medium.com/@rivaldofez"><i
-                    class="fab fa-medium"></i></a>
-                <a class="btn btn-light btn-social" href="https://www.instagram.com/rivaldofez"><i
-                        class="fab fa-instagram"></i></a>
-            </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="">Rivaldo Fernandes</a>. All Rights
-                Reserved.
-            </p>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/portfolio.js"></script>
-</body>
-
-</html>
+    <section class="contact-section"><div class="section-wrap contact-inner"><span class="section-index">06 — WHAT’S NEXT?</span><h2>Have a good problem?<br><em>Let’s solve it.</em></h2><p>I’m always open to thoughtful conversations, interesting products, and opportunities to build better software.</p><div class="hero-actions contact-actions"><a class="button button-primary" href="https://www.linkedin.com/in/rivaldofez/" target="_blank" rel="noreferrer">Open LinkedIn <i class="fa-brands fa-linkedin-in"></i></a><a class="button button-quiet" href="https://drive.google.com/file/d/1sKfHohlvdCxpAKkm0xBuXSMPEREL-j50/view?usp=drive_link" target="_blank" rel="noreferrer"><i class="fa-solid fa-file-lines"></i> View Resume</a></div><div class="contact-meta"><span>Jakarta, Indonesia</span><span>+62 822-7902-5566</span><span>rivaldofez@gmail.com</span><span>© 2026 Rivaldo Fernandes</span></div></div></section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script><script src="js/portfolio.js"></script><script src="js/dark-site.js"></script>
+</body></html>

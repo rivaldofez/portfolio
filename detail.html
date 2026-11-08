@@ -1,180 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <title>Project Detail</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <link href="img/favicon.ico" rel="icon" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-</head>
-
-<body>
-  <!-- Navbar Start -->
-  <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-    <a href="index.html" class="navbar-brand ml-lg-3">
-      <h1 class="m-0 display-5">
-        <span class="text-primary">My</span>Resume
-      </h1>
-    </a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-      <div class="navbar-nav m-auto py-0">
-        <a href="index.html#home" class="nav-item nav-link">Home</a>
-        <a href="index.html#about" class="nav-item nav-link">About</a>
-        <a href="index.html#qualification" class="nav-item nav-link">Quality</a>
-        <a href="index.html#skill" class="nav-item nav-link">Skill</a>
-        <a href="index.html#portfolio" class="nav-item nav-link">Portfolio</a>
-        <a href="index.html#contact" class="nav-item nav-link">Contact</a>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar End -->
-
-  <!-- Project Detail Start -->
-  <div class="container-fluid py-5" style="margin-top: 80px;">
-    <div class="container">
-      <div class="position-relative d-flex align-items-center justify-content-center mb-5">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
-          Detail
-        </h1>
-        <h1 class="position-absolute text-uppercase text-primary" id="project-title">
-          Project Name
-        </h1>
-      </div>
-
-      <div class="row align-items-center mb-5">
-        <div class="col-lg-6 mb-4 mb-lg-0">
-          <img id="project-image" class="img-fluid rounded w-100" src="" alt="" />
-        </div>
-        <div class="col-lg-6">
-          <h3 class="mb-3" id="project-role">Role</h3>
-          <p id="project-overview"></p>
-          <h5 class="mt-4">Tech Stack</h5>
-          <p id="project-tech"></p>
-          <h5 class="mt-4">Tools</h5>
-          <p id="project-tools"></p>
-          <div id="project-links" class="mt-4"></div>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="mb-3">My Contributions</h3>
-        <ul id="project-contributions"></ul>
-      </div>
-
-      <div class="mb-5">
-        <h3 class="mb-4">Project Screenshots</h3>
-        <div class="row justify-content-center" id="project-screenshots"></div>
-      </div>
-
-      <!-- Back Button -->
-      <div class="text-center mt-5">
-        <a href="#" id="back-btn" class="btn btn-outline-primary">← Back</a>
-      </div>
-    </div>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Project — Rivaldo Fernandes</title><meta name="theme-color" content="#070809"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"><link href="css/style.css" rel="stylesheet"><link href="css/portfolio-dark.css" rel="stylesheet"><link href="css/detail-dark.css" rel="stylesheet"></head><body>
+<nav class="site-nav"><div class="nav-inner"><a class="brand" href="index.html"><span class="brand-mark">rf<span>.</span></span><span class="brand-name">Rivaldo Fernandes</span></a><div class="nav-links open"><a href="index.html#about">About</a><a href="index.html#experience">Experience</a><a href="index.html#projects">Projects</a><a class="nav-contact" href="https://www.linkedin.com/in/rivaldofez/" target="_blank" rel="noreferrer">LinkedIn <i class="fa-brands fa-linkedin-in"></i></a></div></div></nav>
+<main class="detail-page"><div class="section-wrap"><a href="index.html#projects" class="back-link"><i class="fa-solid fa-arrow-left"></i> BACK TO SELECTED WORK</a><div class="detail-heading"><span class="section-index">PROJECT DEEP DIVE</span><h1 id="project-title">Project</h1><p id="project-role"></p></div><div class="detail-overview"><div class="detail-art"><img class="detail-art-image" id="project-detail-thumbnail" alt="" loading="eager"><span class="detail-art-mark" id="project-monogram">RF</span><span class="detail-art-caption">SELECTED PROJECT / ENGINEERING NOTES</span></div><div class="detail-summary"><span class="panel-label">OVERVIEW</span><p id="project-overview"></p><div class="detail-links" id="project-links"></div></div></div><div class="detail-columns"><section><span class="panel-label">01 / CONTRIBUTIONS</span><h2>What I worked on</h2><ul id="project-contributions"></ul></section><aside><div class="detail-stack"><span class="panel-label">02 / TECHNOLOGY</span><h2>Tech stack</h2><div id="project-tech" class="detail-tags"></div></div><div class="detail-stack"><span class="panel-label">03 / WORKFLOW</span><h2>Tools</h2><div id="project-tools" class="detail-tags"></div></div></aside></div><section class="screenshots-section"><span class="panel-label">04 / VISUALS</span><h2>Project screenshots</h2><div id="project-screenshots" class="screenshot-grid"></div><p class="asset-note" id="asset-note" hidden>Project image assets were not included in the supplied archive.</p></section><a href="index.html#projects" class="button button-primary detail-back-bottom">Back to projects <i class="fa-solid fa-arrow-right"></i></a></div></main><div class="image-lightbox" id="image-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Screenshot preview">
+  <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+  <figure class="lightbox-figure">
+    <img id="lightbox-image" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+  <div class="lightbox-hint">CLICK IMAGE OR USE + / − TO ZOOM · ESC TO CLOSE</div>
+  <div class="lightbox-zoom">
+    <button id="lightbox-zoom-out" type="button" aria-label="Zoom out">−</button>
+    <span id="lightbox-zoom-level">100%</span>
+    <button id="lightbox-zoom-in" type="button" aria-label="Zoom in">+</button>
+    <button id="lightbox-zoom-reset" type="button">Reset</button>
   </div>
-  <!-- Project Detail End -->
-
-  <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://github.com/rivaldofez"><i
-                        class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/rivaldofez/"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://medium.com/@rivaldofez"><i
-                    class="fab fa-medium"></i></a>
-                <a class="btn btn-light btn-social" href="https://www.instagram.com/rivaldofez"><i
-                        class="fab fa-instagram"></i></a>
-            </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="">Rivaldo Fernandes</a>. All Rights
-                Reserved.
-            </p>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-  <!-- Portfolio Data -->
-  <script src="js/portfolio.js"></script>
-
-  <!-- Dynamic Detail Script -->
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const projectId = params.get("id");
-    const project = portfolioItems.find((p) => p.id === projectId);
-
-    if (project) {
-      document.title = project.title;
-      document.getElementById("project-title").innerText = project.title;
-      document.getElementById("project-role").innerText = project.role;
-      document.getElementById("project-image").src = project.image;
-      document.getElementById("project-image").alt = project.title;
-      document.getElementById("project-overview").innerText = project.overview;
-      document.getElementById("project-tech").innerText =
-        project.techStack.join(", ");
-      document.getElementById("project-tools").innerText =
-        project.tools.join(", ");
-
-      const contribList = document.getElementById("project-contributions");
-      project.contributions.forEach((point) => {
-        const li = document.createElement("li");
-        li.innerText = point;
-        contribList.appendChild(li);
-      });
-
-      const screenshotsDiv = document.getElementById("project-screenshots");
-      project.screenshots.forEach((src) => {
-        const col = document.createElement("div");
-        col.className = "col-lg-3 col-md-4 col-sm-6 mb-4";
-        col.innerHTML = `
-    <img src="${src}" alt="${project.title} Screenshot"
-      class="img-fluid d-block mx-auto" style="max-height: 500px; object-fit: contain;" />`;
-        screenshotsDiv.appendChild(col);
-      });
-
-
-      const linksDiv = document.getElementById("project-links");
-      if (project.links.appStore) {
-        linksDiv.innerHTML += `<a href="${project.links.appStore}" target="_blank" class="btn btn-outline-primary mr-2 mb-2">App Store</a>`;
-      }
-      if (project.links.github) {
-        linksDiv.innerHTML += `<a href="${project.links.github}" target="_blank" class="btn btn-outline-dark mb-2">GitHub</a>`;
-      }
-    } else {
-      document.querySelector(".container").innerHTML =
-        "<h3>Project Not Found</h3>";
-    }
-  </script>
-
-  <script>
-    document.getElementById('back-btn').addEventListener('click', function (event) {
-      event.preventDefault();
-      if (window.history.length > 1) {
-        window.history.back();
-      } else {
-        window.location.href = 'index.html#portfolio';
-      }
-    });
-  </script>
-</body>
-
-</html>
+</div>
+<footer class="detail-footer"><div class="section-wrap"><span>© 2026 Rivaldo Fernandes</span><span>Built with intention. <span class="code-bracket">{ } </span></span><a href="https://www.linkedin.com/in/rivaldofez/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div></footer>
+<script src="js/portfolio.js"></script><script>
+const params=new URLSearchParams(location.search);const project=portfolioItems.find(p=>p.id===params.get('id'));
+if(project){document.title=project.title+' — Rivaldo Fernandes';document.getElementById('project-title').textContent=project.title;document.getElementById('project-role').textContent=project.role;const detailThumbnail=document.getElementById('project-detail-thumbnail');if(project.image){detailThumbnail.src=project.image;detailThumbnail.alt=project.title+' project thumbnail';detailThumbnail.onerror=()=>{detailThumbnail.hidden=true}}else{detailThumbnail.hidden=true}document.getElementById('project-overview').textContent=project.overview;document.getElementById('project-monogram').textContent=project.title.replace(/[^a-zA-Z0-9 ]/g,' ').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
+const addTags=(id,items)=>{const el=document.getElementById(id);items.forEach(value=>{const tag=document.createElement('span');tag.textContent=value;el.appendChild(tag)})};addTags('project-tech',project.techStack);addTags('project-tools',project.tools);
+project.contributions.forEach(point=>{const li=document.createElement('li');li.textContent=point;document.getElementById('project-contributions').appendChild(li)});
+const links=document.getElementById('project-links');if(project.links.appStore)links.innerHTML+=`<a class="button button-primary" href="${project.links.appStore}" target="_blank" rel="noreferrer">View on App Store ↗</a>`;if(project.links.github)links.innerHTML+=`<a class="button button-quiet" href="${project.links.github}" target="_blank" rel="noreferrer">View source on GitHub ↗</a>`;
+let loaded=0;project.screenshots.forEach((src,index)=>{const img=document.createElement('img');img.src=src;img.alt=project.title+' screenshot '+(index+1);img.loading='lazy';img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-label','Preview screenshot '+(index+1));img.addEventListener('click',()=>openScreenshot(index));img.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();openScreenshot(index)}});img.onerror=()=>{img.remove();if(!document.querySelector('#project-screenshots img'))document.getElementById('asset-note').hidden=false};document.getElementById('project-screenshots').appendChild(img)});
+const lightbox=document.getElementById('image-lightbox'),lightboxImage=document.getElementById('lightbox-image'),zoomLevel=document.getElementById('lightbox-zoom-level');let activeShot=0,zoom=1,dragging=false,startX=0,startY=0,panX=0,panY=0;
+const availableShots=()=>Array.from(document.querySelectorAll('#project-screenshots img')).map(img=>img.src);
+function applyZoom(){lightboxImage.style.transform=`translate(${panX}px,${panY}px) scale(${zoom})`;zoomLevel.textContent=Math.round(zoom*100)+'%';lightboxImage.style.cursor=zoom>1?'grab':'zoom-in'}
+function showShot(index){const shots=availableShots();if(!shots.length)return;activeShot=(index+shots.length)%shots.length;const source=shots[activeShot];lightboxImage.src=source;lightboxImage.alt=project.title+' screenshot '+(activeShot+1);document.getElementById('lightbox-caption').textContent=project.title+' · '+(activeShot+1)+' / '+shots.length;zoom=1;panX=0;panY=0;applyZoom()}
+function openScreenshot(index){showShot(index);lightbox.classList.add('is-open');lightbox.setAttribute('aria-hidden','false');document.body.classList.add('lightbox-open');document.getElementById('lightbox-close').focus()}
+function closeScreenshot(){lightbox.classList.remove('is-open');lightbox.setAttribute('aria-hidden','true');document.body.classList.remove('lightbox-open')}
+function changeZoom(amount){zoom=Math.min(4,Math.max(1,zoom+amount));if(zoom===1){panX=0;panY=0}applyZoom()}
+document.getElementById('lightbox-close').addEventListener('click',closeScreenshot);document.getElementById('lightbox-prev').addEventListener('click',()=>showShot(activeShot-1));document.getElementById('lightbox-next').addEventListener('click',()=>showShot(activeShot+1));document.getElementById('lightbox-zoom-in').addEventListener('click',()=>changeZoom(.25));document.getElementById('lightbox-zoom-out').addEventListener('click',()=>changeZoom(-.25));document.getElementById('lightbox-zoom-reset').addEventListener('click',()=>{zoom=1;panX=0;panY=0;applyZoom()});lightboxImage.addEventListener('click',()=>changeZoom(zoom===1?1:-1));
+lightbox.addEventListener('click',event=>{if(event.target===lightbox)closeScreenshot()});document.addEventListener('keydown',event=>{if(!lightbox.classList.contains('is-open'))return;if(event.key==='Escape')closeScreenshot();if(event.key==='ArrowLeft')showShot(activeShot-1);if(event.key==='ArrowRight')showShot(activeShot+1);if(event.key==='+'||event.key==='=')changeZoom(.25);if(event.key==='-')changeZoom(-.25)});
+lightboxImage.addEventListener('wheel',event=>{event.preventDefault();changeZoom(event.deltaY<0?.2:-.2)},{passive:false});lightboxImage.addEventListener('pointerdown',event=>{if(zoom<=1)return;dragging=true;startX=event.clientX-panX;startY=event.clientY-panY;lightboxImage.setPointerCapture(event.pointerId);lightboxImage.style.cursor='grabbing'});lightboxImage.addEventListener('pointermove',event=>{if(!dragging)return;panX=event.clientX-startX;panY=event.clientY-startY;applyZoom()});lightboxImage.addEventListener('pointerup',()=>{dragging=false;applyZoom()});lightboxImage.addEventListener('pointercancel',()=>{dragging=false;applyZoom()});
+}else{document.querySelector('.detail-page .section-wrap').innerHTML='<h1>Project not found</h1><a class="button button-primary" href="index.html#projects">Back to portfolio</a>'}
+</script></body></html>
